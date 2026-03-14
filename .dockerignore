@@ -1,0 +1,17 @@
+# Ignorar el entorno virtual de Windows (PESADO Y NO SIRVE EN LINUX)
+venv/
+
+# Ignorar el historial de Git
+.git/
+
+# Ignorar archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Ignorar la carpeta de logs (TIENES MUCHOS Y PESAN)
+logs/
+
+# Ignorar archivos temporales de entrenamiento de Catboost
+catboost_info/
+
+# NO IGNORAMOS artifacts/ porque ahí están tus .csv y .pkl necesarios
