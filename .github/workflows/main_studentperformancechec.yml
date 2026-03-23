@@ -30,7 +30,7 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: testdockerone.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_7fe4218b75d44acd982fcba49ee541c7 }}/testdockerone:${{ github.sha }}
+        tags: testdockerone.azurecr.io/testdockerone:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
